@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:orientation="vertical"
+    android:paddingTop="0dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:scrollbars="none" >
+
+        <AbsoluteLayout
+            android:id="@+id/absoluteLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="320dp"
+                android:layout_height="512dp"
+                android:src="@drawable/fondo1" />
+
+            <EditText
+                android:id="@+id/rowint2"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_x="24dp"
+                android:layout_y="70dp"
+                android:background="@drawable/noticias_fondo"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:freezesText="false"
+                android:inputType="textMultiLine"
+                android:paddingBottom="80dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="40dp"
+                android:paddingTop="40dp"
+                android:text=" "
+                android:textColor="#373737"
+                android:textStyle="bold" />
+
+        </AbsoluteLayout>
+    </ScrollView>
+
+</AbsoluteLayout>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:paddingTop="0dp" >
+- 
+
+    <ScrollView
+        android:id="@+id/scrollViewest2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:scrollbars="none" >
+- 
+
+        <AbsoluteLayout
+            android:id="@+id/absoluteLayoutelim1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top" >
+
+            <ImageView
+                android:id="@+id/imageViewelim1"
+                android:layout_width="320dp"
+                android:layout_height="484dp"
+                android:src="@drawable/cuartos" />
+
+            <Spinner
+                android:id="@+id/spinneroct8"
+                android:layout_width="108dp"
+                android:layout_height="36dp"
+                android:layout_x="101dp"
+                android:layout_y="406dp" />
+
+            <Spinner
+                android:id="@+id/spinneroct7"
+                android:layout_width="108dp"
+                android:layout_height="36dp"
+                android:layout_x="101dp"
+                android:layout_y="371dp" />
+
+            <Spinner
+                android:id="@+id/spinneroct6"
+                android:layout_width="108dp"
+                android:layout_height="36dp"
+                android:layout_x="101dp"
+                android:layout_y="308dp" />
+
+            <Spinner
+                android:id="@+id/spinneroct5"
+                android:layout_width="108dp"
+                android:layout_height="36dp"
+                android:layout_x="101dp"
+                android:layout_y="274dp" />
+
+            <Spinner
+                android:id="@+id/spinneroct3"
+                android:layout_width="108dp"
+                android:layout_height="36dp"
+                android:layout_x="101dp"
+                android:layout_y="177dp" />
+
+            <Spinner
+                android:id="@+id/spinneroct4"
+                android:layout_width="108dp"
+                android:layout_height="36dp"
+                android:layout_x="101dp"
+                android:layout_y="212dp" />
+
+            <Spinner
+                android:id="@+id/spinneroct2"
+                android:layout_width="108dp"
+                android:layout_height="36dp"
+                android:layout_x="101dp"
+                android:layout_y="113dp" />
+
+            <Spinner
+                android:id="@+id/spinneroct1"
+                android:layout_width="108dp"
+                android:layout_height="36dp"
+                android:layout_x="101dp"
+                android:layout_y="76dp"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/editTextoct1"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_x="214dp"
+                android:layout_y="76dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+            <EditText
+                android:id="@+id/editTextoct2"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_x="214dp"
+                android:layout_y="113dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextoct3"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_x="214dp"
+                android:layout_y="177dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextoct4"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_x="214dp"
+                android:layout_y="212dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextoct5"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_x="214dp"
+                android:layout_y="274dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextoct6"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_x="214dp"
+                android:layout_y="308dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextoct7"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_x="214dp"
+                android:layout_y="371dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextoct8"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_x="214dp"
+                android:layout_y="406dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/buttonoct1"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="56dp"
+                android:layout_y="76dp"
+                android:background="@drawable/incog"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/buttonoct2"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="56dp"
+                android:layout_y="113dp"
+                android:background="@drawable/incog" />
+
+            <Button
+                android:id="@+id/buttonoct3"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="56dp"
+                android:layout_y="177dp"
+                android:background="@drawable/incog" />
+
+            <Button
+                android:id="@+id/buttonoct4"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="56dp"
+                android:layout_y="212dp"
+                android:background="@drawable/incog" />
+
+            <Button
+                android:id="@+id/buttonoct5"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="56dp"
+                android:layout_y="274dp"
+                android:background="@drawable/incog" />
+
+            <Button
+                android:id="@+id/buttonoct6"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="56dp"
+                android:layout_y="308dp"
+                android:background="@drawable/incog" />
+
+            <Button
+                android:id="@+id/buttonoct7"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="56dp"
+                android:layout_y="371dp"
+                android:background="@drawable/incog" />
+
+            <Button
+                android:id="@+id/buttonoct8"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="56dp"
+                android:layout_y="406dp"
+                android:background="@drawable/incog" />
+
+            <RadioButton
+                android:id="@+id/radioButtonoct1"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="250dp"
+                android:layout_y="76dp"
+                android:gravity="center" />
+
+            <RadioButton
+                android:id="@+id/radioButtonoct2"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="250dp"
+                android:layout_y="113dp"
+                android:gravity="center" />
+
+            <RadioButton
+                android:id="@+id/radioButtonoct3"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="250dp"
+                android:layout_y="177dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonoct4"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="250dp"
+                android:layout_y="212dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonoct5"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="250dp"
+                android:layout_y="274dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonoct6"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="250dp"
+                android:layout_y="308dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonoct7"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="250dp"
+                android:layout_y="371dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonoct8"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="250dp"
+                android:layout_y="406dp" />
+
+            <Button
+                android:id="@+id/buttong9"
+                android:layout_width="71dp"
+                android:layout_height="26dp"
+                android:layout_x="235dp"
+                android:layout_y="10dp"
+                android:background="@drawable/btn_salvar1" />
+<Button
+                android:id="@+id/buttone9"
+                android:layout_width="70dp"
+                android:layout_height="26dp"
+                android:layout_x="140dp"
+                android:layout_y="10dp"
+                android:background="@drawable/btn_editar1" />
+        </AbsoluteLayout>
+
+    </ScrollView>
+
+</AbsoluteLayout>

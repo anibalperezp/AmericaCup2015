@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\estadisticas.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\estadisticas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\noticiasint4.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\noticiasint4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\noticiasint5.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\noticiasint5.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\elim_fragment3.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\elim_fragment3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\clasif_fragment2.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\clasif_fragment2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\calendario.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\calendario.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\elim_fragment1.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\elim_fragment1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\noticiasint3.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\noticiasint3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\activity_main.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\elim_fragment22.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\elim_fragment22.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\noticiasint.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\noticiasint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\contactenos.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\contactenos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\elim_fragment2.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\elim_fragment2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\clasif_fragment4.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\clasif_fragment4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\elim_fragment13.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\elim_fragment13.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\clasif_fragment3.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\clasif_fragment3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\eliminatoria_main.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\eliminatoria_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\noticiasint1.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\noticiasint1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\noticiasint2.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\noticiasint2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw384dp-normal-v13\\noticiasint6.xml",
+        "source": "C:\\Users\\Owner\\StudioProjects\\CopaAmerica1\\app\\src\\main\\res\\layout-sw384dp-normal\\noticiasint6.xml"
+    }
+]

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:paddingTop="0dp" >
+- 
+
+    <ScrollView
+        android:id="@+id/scrollViewest2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:scrollbars="none" >
+
+- 
+
+        <AbsoluteLayout
+            android:id="@+id/absoluteLayoutelim1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top" >
+
+            <ImageView
+                android:id="@+id/imageViewelim1"
+                android:layout_width="360dp"
+                android:layout_height="545dp"
+                android:src="@drawable/fin" />
+
+            <Spinner
+                android:id="@+id/spinnersemi3"
+                android:layout_width="121dp"
+                android:layout_height="36dp"
+                android:layout_x="114dp"
+                android:layout_y="264dp" />
+
+            <Spinner
+                android:id="@+id/spinnersemi4"
+                android:layout_width="121dp"
+                android:layout_height="36dp"
+                android:layout_x="114dp"
+                android:layout_y="303dp" />
+
+            <Spinner
+                android:id="@+id/spinnersemi2"
+                android:layout_width="121dp"
+                android:layout_height="36dp"
+                android:layout_x="114dp"
+                android:layout_y="159dp" />
+
+            <Spinner
+                android:id="@+id/spinnersemi1"
+                android:layout_width="121dp"
+                android:layout_height="36dp"
+                android:layout_x="114dp"
+                android:layout_y="118dp"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/editTextsemi1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="241dp"
+                android:layout_y="118dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+- 
+
+            <EditText
+                android:id="@+id/editTextsemi2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="241dp"
+                android:layout_y="159dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextsemi3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="241dp"
+                android:layout_y="264dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextsemi4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="241dp"
+                android:layout_y="303dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/buttonsemi1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="63dp"
+                android:layout_y="118dp"
+                android:background="@drawable/incog"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/buttonsemi2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="63dp"
+                android:layout_y="159dp"
+                android:background="@drawable/incog" />
+
+            <Button
+                android:id="@+id/buttonsemi3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="63dp"
+                android:layout_y="264dp"
+                android:background="@drawable/incog" />
+
+            <Button
+                android:id="@+id/buttonsemi4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="63dp"
+                android:layout_y="303dp"
+                android:background="@drawable/incog" />
+
+            <RadioButton
+                android:id="@+id/radioButtonsemi1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="281dp"
+                android:layout_y="118dp"
+                android:gravity="center" />
+
+            <RadioButton
+                android:id="@+id/radioButtonsemi2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="281dp"
+                android:layout_y="159dp"
+                android:gravity="center" />
+
+            <RadioButton
+                android:id="@+id/radioButtonsemi3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="281dp"
+                android:layout_y="264dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonsemi4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_x="281dp"
+                android:layout_y="303dp" />
+
+            <Button
+                android:id="@+id/buttong13"
+                android:layout_width="71dp"
+                android:layout_height="26dp"
+                android:layout_x="235dp"
+                android:layout_y="10dp"
+                android:background="@drawable/btn_salvar1" />
+<Button
+                android:id="@+id/buttone13"
+                android:layout_width="70dp"
+                android:layout_height="26dp"
+                android:layout_x="140dp"
+                android:layout_y="10dp"
+                android:background="@drawable/btn_editar1" />
+        </AbsoluteLayout>
+
+    </ScrollView>
+
+</AbsoluteLayout>

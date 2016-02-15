@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:orientation="vertical"
+    android:paddingTop="0dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:scrollbars="none" >
+
+        <AbsoluteLayout
+            android:id="@+id/absoluteLayout20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top" >
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="320dp"
+                android:layout_height="512dp"
+                android:src="@drawable/fondo1" />
+
+            <EditText
+                android:id="@+id/infoplays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="45dp"
+                android:layout_y="206dp"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/partcon"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:layout_x="67dp"
+                android:layout_y="298dp"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/vertka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="197dp"
+                android:layout_y="59dp"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </AbsoluteLayout>
+    </ScrollView>
+
+</AbsoluteLayout>

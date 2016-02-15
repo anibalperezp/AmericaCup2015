@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.copaamerica"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+     <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-feature android:name="android.hardware.location" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.copaamerica.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.example.copaamerica.MySMSMonitor" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        
+        <service
+        android:name="com.example.copaamerica.BBVAServActivity"
+        android:process=":remote"> 
+        <intent-filter>
+            <action
+                android:name="com.example.copaamerica.BBVAServActivity" />
+        </intent-filter>
+    	</service>
+        <activity android:name="com.example.copaamerica.ContactenosActivity"></activity>
+        <activity android:name="com.example.copaamerica.CalendarioActivity"></activity>
+        <activity android:name="com.example.copaamerica.EstadisticasActivity"></activity>
+        <activity android:name="com.example.copaamerica.EliminatoriaActivity"></activity>
+        <activity android:name="com.example.copaamerica.GrupoAActivity"></activity>
+         <activity android:name="com.example.copaamerica.GrupoBActivity"></activity>
+         <activity android:name="com.example.copaamerica.GrupoCActivity"></activity>
+         <activity android:name="com.example.copaamerica.NoticiasIntActivity"></activity>
+         <activity android:name="com.example.copaamerica.NoticeInt1Activity"></activity>
+         <activity android:name="com.example.copaamerica.NoticeInt2Activity"></activity>
+         <activity android:name="com.example.copaamerica.NoticeInt3Activity"></activity>
+         <activity android:name="com.example.copaamerica.NoticeInt4Activity"></activity>
+         <activity android:name="com.example.copaamerica.NoticeInt5Activity"></activity>
+         <activity android:name="com.example.copaamerica.NoticeInt6Activity"></activity>
+         <activity android:name="com.example.copaamerica.NoticeInt7Activity"></activity>
+    </application>
+
+</manifest>

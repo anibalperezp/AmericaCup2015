@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:paddingTop="0dp" >
+
+    <ScrollView
+        android:id="@+id/scrollViewest2"
+        android:layout_width="480dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:scrollbars="none" >
+
+        <AbsoluteLayout
+            android:id="@+id/absoluteLayoutelim1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top" >
+
+            <ImageView
+                android:id="@+id/imageViewelim1"
+                android:layout_width="480dp"
+                android:layout_height="727dp"
+                android:src="@drawable/semis" />
+
+            <Spinner
+                android:id="@+id/spinnercua3"
+                android:layout_width="160dp"
+                android:layout_height="36dp"
+                android:layout_x="152dp"
+                android:layout_y="360dp" />
+
+            <Spinner
+                android:id="@+id/spinnercua4"
+                android:layout_width="160dp"
+                android:layout_height="36dp"
+                android:layout_x="152dp"
+                android:layout_y="412dp" />
+
+            <Spinner
+                android:id="@+id/spinnercua2"
+                android:layout_width="160dp"
+                android:layout_height="36dp"
+                android:layout_x="152dp"
+                android:layout_y="220dp" />
+
+            <Spinner
+                android:id="@+id/spinnercua1"
+                android:layout_width="160dp"
+                android:layout_height="36dp"
+                android:layout_x="152dp"
+                android:layout_y="165dp"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/editTextcua1"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="321dp"
+                android:layout_y="157dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextcua2"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="321dp"
+                android:layout_y="212dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextcua3"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="321dp"
+                android:layout_y="352dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextcua4"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="321dp"
+                android:layout_y="404dp"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/buttoncua1"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="84dp"
+                android:layout_y="157dp"
+                android:background="@drawable/incog"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/buttoncua2"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="84dp"
+                android:layout_y="212dp"
+                android:background="@drawable/incog" />
+
+            <Button
+                android:id="@+id/buttoncua3"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="84dp"
+                android:layout_y="352dp"
+                android:background="@drawable/incog" />
+
+            <Button
+                android:id="@+id/buttoncua4"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="84dp"
+                android:layout_y="404dp"
+                android:background="@drawable/incog" />
+
+            <RadioButton
+                android:id="@+id/radioButtoncua1"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="375dp"
+                android:layout_y="157dp"
+                android:gravity="center" />
+
+            <RadioButton
+                android:id="@+id/radioButtoncua2"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="375dp"
+                android:layout_y="212dp"
+                android:gravity="center" />
+
+            <RadioButton
+                android:id="@+id/radioButtoncua3"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="375dp"
+                android:layout_y="352dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtoncua4"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_x="375dp"
+                android:layout_y="404dp" />
+
+            <Button
+                android:id="@+id/buttone12"
+                android:layout_width="93dp"
+                android:layout_height="34dp"
+                android:layout_x="186dp"
+                android:layout_y="13dp"
+                android:background="@drawable/btn_editar1" />
+
+            <Button
+                android:id="@+id/buttong12"
+                android:layout_width="93dp"
+                android:layout_height="34dp"
+                android:layout_x="313dp"
+                android:layout_y="13dp"
+                android:background="@drawable/btn_salvar1" />
+        </AbsoluteLayout>
+    </ScrollView>
+
+</AbsoluteLayout>

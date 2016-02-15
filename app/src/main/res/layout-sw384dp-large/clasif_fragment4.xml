@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="480dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:scrollbars="none" >
+
+        <AbsoluteLayout
+            android:id="@+id/absoluteLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageviewgc"
+                android:layout_width="480dp"
+                android:layout_height="768dp"
+                android:layout_x="0dp"
+                android:layout_y="0dp"
+                android:src="@drawable/grupoc" />
+
+            <Button
+                android:id="@+id/buttone1"
+                android:layout_width="93dp"
+                android:layout_height="34dp"
+                android:layout_x="186dp"
+                android:layout_y="13dp"
+                android:background="@drawable/btn_editar1" />
+
+            <Button
+                android:id="@+id/buttong1"
+                android:layout_width="93dp"
+                android:layout_height="34dp"
+                android:layout_x="313dp"
+                android:layout_y="13dp"
+                android:background="@drawable/btn_salvar1" />
+
+            <EditText
+                android:id="@+id/editTextgc1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="243dp"
+                android:layout_y="377dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextgc2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="297dp"
+                android:layout_y="377dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextgc3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="243dp"
+                android:layout_y="433dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextgc4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="297dp"
+                android:layout_y="433dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextgc5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="243dp"
+                android:layout_y="490dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextgc6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="297dp"
+                android:layout_y="490dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextgc7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="243dp"
+                android:layout_y="545dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextgc8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="297dp"
+                android:layout_y="545dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextgc9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="243dp"
+                android:layout_y="601dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextgc10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="297dp"
+                android:layout_y="601dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextgc11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="243dp"
+                android:layout_y="658dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextgc12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="297dp"
+                android:layout_y="658dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="25dp" >
+            </EditText>
+
+            <requestFocus />
+
+            <TextView
+                android:id="@+id/textViewptsc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="28dp"
+                android:layout_y="150dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewgfc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="85dp"
+                android:layout_y="150dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewgcc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="144dp"
+                android:layout_y="150dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewptsc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="28dp"
+                android:layout_y="189dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewgfc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="85dp"
+                android:layout_y="189dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewgcc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="144dp"
+                android:layout_y="189dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewptsc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="28dp"
+                android:layout_y="228dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewgfc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="85dp"
+                android:layout_y="228dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewgcc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="144dp"
+                android:layout_y="228dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewptsc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="28dp"
+                android:layout_y="266dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewgfc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="85dp"
+                android:layout_y="266dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewgcc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="144dp"
+                android:layout_y="266dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </AbsoluteLayout>
+    </ScrollView>
+
+</AbsoluteLayout>
